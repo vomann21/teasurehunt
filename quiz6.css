@@ -1,0 +1,81 @@
+body{
+    font-family : 'Helvetica';
+    background-color: rgb(190, 229, 151);
+  }
+  
+  .game_title{
+    text-align: center;
+  }
+  
+  #game_area{
+    height:306px;
+    width:306px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    border: 2px solid black;
+  }
+  
+  .number-block{
+    height:100px;
+    width:100px;
+    border:1px solid black;
+    text-align : center;
+    font-size: 78px;
+    cursor: pointer;
+  }
+  
+  .void_class{
+    background:black;
+    color : grey;
+    cursor : not-allowed;
+  }
+  
+  #game_controls{
+    height:100px;
+    width:300px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+  }
+  
+  .reset_btn{
+    height:30px;
+    width:100px;
+    background-color: white;
+    border:1px solid black;
+    cursor: pointer;
+  }
+  
+  .reset_btn.focus, .reset_btn:focus {
+      outline: 0;
+      box-shadow: none!important;
+  }
+
+  .title{
+    background-color: rgb(34, 33, 33);
+    width: 100%;
+}
+.title h1{
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+.success{
+    text-align: center;
+    height: 50%;
+    margin: auto;
+}
+
+.success img{
+    width:40%;
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgb(34, 33, 33);
+    color: yellow;
+}
+
+.success span{
+    color: red;
+}

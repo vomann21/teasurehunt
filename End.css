@@ -1,0 +1,65 @@
+body{
+    color: white;
+}
+
+.container{
+    background: url('/assets/132439055-hip-hip-hooray-neon-text-vector-design-template-hip-hip-hooray-neon-logo-light-banner-design.webp') center center/cover;
+    background-color: rgba(255, 255, 255, 0.185);
+    display: flex;
+    padding: 91px;
+}
+
+.left{
+    background-color: rgba(0, 0, 0, 0.351);
+    margin: 5px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.right{
+    margin: 5px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.right img{
+    height: 300px;
+    width: 300px;
+}
+
+#claimBtn{
+    margin: 30px;
+}
+
+.footer{
+    color: black   ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    background-color: rgb(34, 33, 33);
+    width: 100%;
+}
+.title h1{
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(190, 229, 151);
+}
+
+button{
+    background-color: rgb(184, 184, 95);
+    width: 800px;
+    height: 40px;
+    color: rgb(21, 22, 20);
+}

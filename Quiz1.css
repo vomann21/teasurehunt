@@ -1,0 +1,66 @@
+.heading{
+    text-align: center;
+}
+
+.plus{
+    display: inline;
+    margin: auto;
+}
+
+.question{
+    display: flex;
+    margin:90px 100px;
+    justify-content: space-around;
+}
+
+label{
+    display: block;
+}
+input{
+    display: block;
+}
+
+form{
+   text-align: center;
+}
+form label{
+    padding:3px;
+}
+form input{
+    margin:auto;
+    margin-bottom: 6px;
+    width:45%;
+    height: 40px;
+    font-size: 30px;
+}
+
+body{
+    background-image: url('https://media.istockphoto.com/id/1210381929/photo/soft-water-background.jpg?s=170667a&w=0&k=20&c=3pE_0u6kb_e6HV_lZ8a12g5cbHIZ5bGkP4Q0cqp-fWk=');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+button{
+    width:8%;
+    height: 33px;
+    border-radius: 5px;
+}
+
+.success{
+    text-align: center;
+    height: 50%;
+    margin: auto;
+}
+
+.success button{
+    width:8%;
+    height: 33px;
+    border-radius: 5px;
+    background-color: rgb(34, 33, 33);
+    color: yellow;
+}
+
+.success span{
+    color: red;
+}
